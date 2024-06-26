@@ -1,0 +1,40 @@
+.compnavbar{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.compnavbar.nav_pages{
+    height: 95px; 
+    
+    margin: 10px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+} 
+.compnavbar .nav_pages *{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    
+}
+.compnavbar nav.nav_pages ul li{
+    display: inline-block;
+    margin-left: 18px;
+}
+/* ICON */
+.compnavbar .icon{
+    position: relative;
+    display: inline;
+
+    height: 100%;
+    aspect-ratio: 1/1;
+
+    background-image: url('/trabalhoWebPaginaSustentabilidade/images/main-icon-redoma.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}

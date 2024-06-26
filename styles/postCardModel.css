@@ -1,0 +1,43 @@
+
+
+section.card{
+    background-color: blue;
+    color: white;
+
+    width: 15vw;
+    max-width: 350px;
+    min-width: 250px;
+
+    aspect-ratio: 1/1.24;
+    
+    background-size: auto 100%;
+    background-position: center;
+}
+
+section.card .grad{
+    width: 100%;
+    height: 100%;
+    
+    background: linear-gradient( to top, black, rgba(0,0,0,0) 75% );
+}
+
+section.card a{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    text-decoration: none;
+    color: inherit;
+}
+section.card .title {
+    padding-left: 10px;
+
+    position: relative;
+
+    top: 50%;
+}
+section.card .title h2{
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+}
